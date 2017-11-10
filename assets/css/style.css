@@ -1,0 +1,61 @@
+h1, p {
+	font-family: 'Quicksand', sans-serif;
+	color: #547696;
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+header h1 {
+	font-size: 75px;
+}
+header h3 {
+	font-size: 35px;
+}
+header h4 {
+	font-size: 20px;
+}
+#header-contents h4 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+#gameplay-box {
+	border: 2px solid gray;
+	height: 500px;
+}
+#gameplay-box p {
+	margin-top: 30px;
+}
+#word-guess-title h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+#guessing-word {
+	margin-bottom: 30px;
+}
+#guessing-word span > p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+#guesses-remain h3 {
+	font-size: 30px;
+}
+#letters-guessed h3 {
+	font-size: 30px;
+}
+
+
+
+#layout { 
+  color: #FFF; 
+  width: 100%; 
+  height: 1px; 
+}
+.stars {
+  z-index: 0;
+  background-repeat: repeat-x,repeat-x repeat-y;
+  transform: translate3D(0em, 0em, 0);
+  animation: stars 21s ease; 
+  transform-style: preserve-3d;
+}
